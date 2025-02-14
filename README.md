@@ -1,0 +1,2 @@
+# Emotion-Text-Classification-in-Social-Media-Using-Multiple-Text-Representation-and-Deep-RNN
+This project explores emotion classification in social media texts using multiple text representation techniques (TF-IDF, Word2Vec, GloVe) and deep recurrent neural networks (GRU, LSTM, Bi-GRU, Bi-LSTM). The best model achieved an F1-Score of 0.9248, with Word2Vec and Bi-LSTM outperforming other combinations.
