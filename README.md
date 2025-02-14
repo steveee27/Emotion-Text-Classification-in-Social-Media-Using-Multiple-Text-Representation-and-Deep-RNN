@@ -21,7 +21,7 @@
 In today’s modern world, social media users often express their emotions, sharing their thoughts on personal experiences or societal issues, especially during critical times such as the COVID-19 pandemic. With more than 5.22 billion social media users worldwide, emotion analysis has become a vital area of research to understand public sentiment. This study investigates multiple text representation techniques (TF-IDF, Word2Vec, GloVe) combined with deep recurrent neural networks (GRU, LSTM, Bi-GRU, Bi-LSTM) to classify emotions in social media text.
 
 ## Project Overview
-This project evaluates emotion classification in social media by combining text representation techniques with deep learning models. I explore how well models perform on a dataset of 393,822 samples categorized into six emotions: sadness, joy, love, anger, fear, and surprise. The preprocessing steps, model configurations, and evaluation processes are outlined in the paper. Our findings suggest that Word2Vec with Bi-LSTM achieves the best F1-Score (0.9248), outperforming other configurations.
+This project evaluates emotion classification in social media by combining text representation techniques with deep learning models. I explore how well models perform on a dataset of 393,822 samples categorized into six emotions: sadness, joy, love, anger, fear, and surprise. The preprocessing steps, model configurations, and evaluation processes are outlined in the paper. The findings suggest that Word2Vec with Bi-LSTM achieves the best F1-Score (0.9248), outperforming other configurations.
 
 ## Methodology
 ![Figure 1](https://github.com/user-attachments/assets/973d5393-54f5-44ed-a56b-8f0b007df11e)
@@ -77,7 +77,7 @@ The best model for each text representation technique was then selected based on
 ## Results and Discussion
 
 ### Model Performance
-Our results indicate that **Word2Vec with Bi-LSTM** performed the best across all models, achieving the highest F1-Score of 0.9248. This configuration outperformed other combinations of text representation and deep recurrent models, highlighting the effectiveness of pre-trained embeddings like Word2Vec for capturing complex emotional nuances.
+These results indicate that **Word2Vec with Bi-LSTM** performed the best across all models, achieving the highest F1-Score of 0.9248. This configuration outperformed other combinations of text representation and deep recurrent models, highlighting the effectiveness of pre-trained embeddings like Word2Vec for capturing complex emotional nuances.
 
 Comparing **TF-IDF** with the other representations, it is clear that while TF-IDF provides a strong baseline, it does not capture the semantic richness of words in the same way as **Word2Vec** or **GloVe**. Pre-trained embeddings demonstrate superior performance because they capture contextual relationships between words, which are crucial for emotion classification.
 
