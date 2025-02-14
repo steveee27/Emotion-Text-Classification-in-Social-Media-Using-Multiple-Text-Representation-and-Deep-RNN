@@ -66,7 +66,7 @@ Key metrics used to evaluate the models include:
 - **F1-Score**: The harmonic mean of precision and recall, prioritizing balanced performance.
 
 ### Evaluation Results
-![Table](https://github.com/user-attachments/assets/bda84836-0a16-4077-8b54-49d85d318d1a)
+![Tables](https://github.com/user-attachments/assets/a88eadb3-21cc-4ec7-93f0-a7e9c18ecdff)
 
 Table above summarizes the performance of the best models across all text representation techniques. These models were evaluated based on the metrics mentioned above.
 The best model for each text representation technique was then selected based on its highest F1-Score, which was prioritized due to the imbalanced nature of the dataset.
