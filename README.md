@@ -20,8 +20,8 @@
 ## Introduction
 In today’s modern world, social media users often express their emotions, sharing their thoughts on personal experiences or societal issues, especially during critical times such as the COVID-19 pandemic. With more than 5.22 billion social media users worldwide, emotion analysis has become a vital area of research to understand public sentiment. This study investigates multiple text representation techniques (TF-IDF, Word2Vec, GloVe) combined with deep recurrent neural networks (GRU, LSTM, Bi-GRU, Bi-LSTM) to classify emotions in social media text.
 
-## Paper Overview
-This research evaluates emotion classification in social media by combining text representation techniques with deep learning models. We explore how well models perform on a dataset of 393,822 samples categorized into six emotions: sadness, joy, love, anger, fear, and surprise. The preprocessing steps, model configurations, and evaluation processes are outlined in the paper. Our findings suggest that Word2Vec with Bi-LSTM achieves the best F1-Score (0.9248), outperforming other configurations.
+## Project Overview
+This project evaluates emotion classification in social media by combining text representation techniques with deep learning models. We explore how well models perform on a dataset of 393,822 samples categorized into six emotions: sadness, joy, love, anger, fear, and surprise. The preprocessing steps, model configurations, and evaluation processes are outlined in the paper. Our findings suggest that Word2Vec with Bi-LSTM achieves the best F1-Score (0.9248), outperforming other configurations.
 
 ## Methodology
 ![Figure 1](https://github.com/user-attachments/assets/973d5393-54f5-44ed-a56b-8f0b007df11e)
