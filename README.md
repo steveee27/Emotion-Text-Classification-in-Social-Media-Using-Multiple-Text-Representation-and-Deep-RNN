@@ -1,4 +1,4 @@
-# Emotion Classification in Social Media Using Multiple Text Representation and Deep Recurrent Neural Networks
+# Emotion Text Classification in Social Media Using Multiple Text Representation and Deep Recurrent Neural Networks
 
 ## Table of Contents
 - [Introduction](#introduction)
