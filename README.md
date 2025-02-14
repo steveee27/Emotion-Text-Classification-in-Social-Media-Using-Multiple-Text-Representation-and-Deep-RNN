@@ -21,7 +21,7 @@
 In today’s modern world, social media users often express their emotions, sharing their thoughts on personal experiences or societal issues, especially during critical times such as the COVID-19 pandemic. With more than 5.22 billion social media users worldwide, emotion analysis has become a vital area of research to understand public sentiment. This study investigates multiple text representation techniques (TF-IDF, Word2Vec, GloVe) combined with deep recurrent neural networks (GRU, LSTM, Bi-GRU, Bi-LSTM) to classify emotions in social media text.
 
 ## Project Overview
-This project evaluates emotion classification in social media by combining text representation techniques with deep learning models. We explore how well models perform on a dataset of 393,822 samples categorized into six emotions: sadness, joy, love, anger, fear, and surprise. The preprocessing steps, model configurations, and evaluation processes are outlined in the paper. Our findings suggest that Word2Vec with Bi-LSTM achieves the best F1-Score (0.9248), outperforming other configurations.
+This project evaluates emotion classification in social media by combining text representation techniques with deep learning models. I explore how well models perform on a dataset of 393,822 samples categorized into six emotions: sadness, joy, love, anger, fear, and surprise. The preprocessing steps, model configurations, and evaluation processes are outlined in the paper. Our findings suggest that Word2Vec with Bi-LSTM achieves the best F1-Score (0.9248), outperforming other configurations.
 
 ## Methodology
 ![Figure 1](https://github.com/user-attachments/assets/973d5393-54f5-44ed-a56b-8f0b007df11e)
@@ -43,7 +43,7 @@ This study compares three text representation techniques for transforming text i
 3. **GloVe (Global Vectors for Word Representation)**: Pre-trained embeddings based on co-occurrence frequencies across large text corpora. A 50-dimensional embedding is used for better representation.
 
 ### Deep Recurrent Neural Networks
-For emotion classification, we experiment with four deep recurrent neural networks:
+For emotion classification, I experiment with four deep recurrent neural networks:
 ![Figure 4](https://github.com/user-attachments/assets/02d12541-26ec-4ba4-8ac6-1afb63506edf)
 
 1. **GRU (Gated Recurrent Unit)**: Captures sequential dependencies with two gates: update and reset.
@@ -84,7 +84,7 @@ Comparing **TF-IDF** with the other representations, it is clear that while TF-I
 ### Confusion Matrix Analysis
 ![Figure 8](https://github.com/user-attachments/assets/82cc6057-e4fb-46e6-9274-13df57b9370e)
 
-In addition to performance metrics, we evaluated the confusion matrix for the best-performing models. The confusion matrix provides insights into how well the model is distinguishing between different emotion categories.
+In addition to performance metrics, I evaluated the confusion matrix for the best-performing models. The confusion matrix provides insights into how well the model is distinguishing between different emotion categories.
 
 - **Word2Vec + Bi-LSTM**: The confusion matrix for this model showed high precision in recognizing joy, sadness, and anger, with lower misclassification between fear and surprise.
 - **TF-IDF + Bi-GRU**: TF-IDF struggled with distinguishing between love and joy, resulting in more misclassifications.
